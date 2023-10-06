@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About page</title>
+    <style>
+        * {
+            align-content: center;
+            font-family: sans-serif;
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+            background-color: lightblue;
+        }
+
+
+        .aboutmain {
+            margin: auto;
+            padding: auto;
+            justify-self: center;
+            align-items: center;
+            width: 600px;
+            height: auto;
+            background-color: white;
+        }
+
+        .aboutmain h3 {
+            padding-top: 20px;
+            text-align: center;
+            color: black;
+        }
+
+        .aboutmain p {
+            text-align: center;
+            color: black;
+
+        }
+
+        .aboutmain img {
+            padding-left: 17%;
+            left: 750px;
+            width: 400px;
+            height: 300px;
+            border-radius: 10%;
+        }
+
+        /* -----------------------  */
+        nav {
+            position: relative;
+            top: 40px;
+            width: 100%;
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            overflow: hidden;
+            z-index: 100;
+        }
+
+        nav .logoBox {
+            position: relative;
+            width: calc(100% - 65%);
+            height: 50px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        nav .logoBox img {
+            position: absolute;
+            left: 140px;
+            width: 70px;
+            height: auto;
+            object-fit: cover;
+            cursor: pointer;
+        }
+
+        nav .menu {
+            position: relative;
+            width: 100%;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(45deg, navy, blue);
+            box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            overflow: hidden;
+        }
+
+        nav .menu ul {
+            position: relative;
+            width: calc(100% - 30%);
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            color: navy;
+        }
+
+        nav .menu ul li {
+            position: relative;
+            left: 50px;
+            width: calc(100% / 4);
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            list-style: none;
+        }
+
+        nav .menu ul li a {
+            position: relative;
+            height: 70px;
+            text-decoration: none;
+            color: #e8eff7;
+            font-size: 1.5em;
+            text-transform: capitalize;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        nav .menu ul li:nth-child(1) a::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: #e8eff7;
+            border-radius: 10px;
+        }
+
+        nav .menu .searchBox {
+            position: relative;
+            width: calc(100% - 70%);
+            height: 70px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        nav .menu .searchBox input {
+            position: absolute;
+            width: 90%;
+            height: 40px;
+            border: none;
+            outline: none;
+            background: #e8eff7;
+            border-radius: 15px;
+            padding-left: 10px;
+            padding-right: 45px;
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        nav .menu .searchBox i {
+            position: absolute;
+            top: 22px;
+            right: 50px;
+            font-size: 1.5em;
+            color: navy;
+            cursor: pointer;
+        }
+
+        .ran {
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div class="logoBox">
+                <img src="https://png.pngtree.com/png-vector/20210316/ourmid/pngtree-decorative-drawing-journalist-s-day-with-notebook-and-pen-png-image_3068332.jpg"
+                    alt="logo">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="main.html">home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">about</a>
+                    </li>
+                    <li>
+                        <a href="courses.html">cources</a>
+                    </li>
+                    <li>
+                        <a href="Signup.html">SignUp</a>
+                    </li>
+                </ul>
+                <div class="searchBox">
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+        </nav>
+        <div class="ran"></div>
+        <div class="aboutmain">
+            <H3 color="navy"> Why E-learning?</H3>
+            <p> E-Learning provides scalability which helps in providing training. All students can receive the same
+                type of
+                syllabus, study materials, and train through E-Learning. Through E-Learning, you can save time, and
+                money
+                and reduced transportation costs. so, E-Learning is cost-effective compared to traditional learning.</p>
+            <img src="https://www.lawlat.in/files/medialibrary/34b457df4d9c69e61e4d3c821b769550.jpg" alt="img">
+            <H3> Benefits of E- learning</H3>
+            <p>Web-based learning is commonly referred to as eLearning or online learning. It essentially includes
+                learning
+                online through the courses that are offered on the net. Emails, live lectures, and videoconferencing are
+                all
+                possible through the net. This enables all the participants to give their views on a particular topic
+                and
+                then discuss them further. They also offer static pages like course materials that are printed for the
+                benefit of all the participants. One of the main advantages of accessing pages on the web is that most
+                of
+                the web pages have hyperlinks that will lead you to another page and thus opens up a vast amount of
+                information on the net.You don't have the time to actually go to a University and attend classes.
+                Earlier it
+                would have been a major
+                problem, as you wouldn't know how to manage that, but not anymore. </p>
+            <H3> E-learning Advantages</H3>
+            <p> With the several courses available
+                online, you can actually sit at home and learn. No more of waking up early and attending classes or that
+                irritating class mate. Now take whichever course at peace and at your convenience. A web-based course
+                would
+                typically include course information, timetable, notice board, curriculum map, teaching materials like
+                articles, slides, and handouts, communication through discussion boards and email, summative and
+                formative
+                assessments, student management tools like statistics, records, and student tracking, and also links to
+                external and internal websites that are very useful.</p>
+               <div class="ran"></div>
+        </div>
+    </main>
+</body>
+
+</html>
